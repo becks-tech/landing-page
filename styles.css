@@ -14,7 +14,7 @@ body{
     background: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 10px 80px;
+    padding: 10px 150px;
     
 }
 .logo{
@@ -40,7 +40,7 @@ ul{
 
 }
 .hero{
-    padding: 50px 80px;
+    padding: 50px 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,4 +87,56 @@ ul{
 .card{
     width: 200px;
     text-align: center;
+}
+.quote{
+    background: #e5e7eb;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 150px;
+}
+.quote h4{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.quote p{
+    font-weight: bolder;
+}
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    
+}
+.blue{
+    display: flex;
+    flex-direction: column;
+    background: #3882f6;
+    padding: 20px 100px;
+    border-radius: 5px;
+    width: 700px;
+}
+
+.text p{
+    color: #f9faf8;
+}
+.blue button{
+    background: #3882f6;
+    border: 1px solid #f9faf8;
+    padding: 7px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #f9faf8;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    background: #1f2937;
+    color: #f9faf8;
 }
